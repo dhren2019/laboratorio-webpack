@@ -15,7 +15,7 @@ const miniCss = new MiniCssExtractPlugin({
 module.exports = {
   //entry: ['./main.tsx'],
   entry: {
-    app: "./index.tsx"
+    app: "./main.tsx"
   },
   output: {
     filename: "bundle.js"
