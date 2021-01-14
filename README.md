@@ -1,10 +1,10 @@
-#Iron Man Webpack Boiler
+# Iron Man Webpack Boiler
 ### &spades; Webpack + React + Typescript &spades;
 
 ![Ironman](https://github.com/dhren2019/laboratorio-webpack/blob/main/img/ironMan.jpg)
 
-####Install
+#### Install
 `$ npm install `
 
-####Start
+#### Start
 `$ npm start `
