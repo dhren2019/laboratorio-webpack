@@ -23,6 +23,10 @@ module.exports = {
   resolve: {
     extensions: [".ts", ".tsx", ".js", ".css", ".scss", ".png"]
   },
+  stats: "errors-only",
+  devServer: {
+    stats: "errors-only",
+  },
   module: {
     rules: [
       {
