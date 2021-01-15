@@ -1,6 +1,6 @@
 import React from "react";
 
-import { getAvg } from "./averageService";
+import { getAvg } from "./services/averageService";
 
 export const AverageComponent = () => {
   const [average, setAverage] = React.useState(0);
@@ -15,4 +15,4 @@ export const AverageComponent = () => {
       <span>Students average: {average}</span>
     </div>
   );
-};
+}
