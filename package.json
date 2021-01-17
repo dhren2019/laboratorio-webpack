@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --mode development",
+    "start": "webpack serve  --mode development",
     "build": "webpack --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
+
     "type": "git",
     "url": "git+https://github.com/dhren2019/laboratorio-webpack.git"
   },

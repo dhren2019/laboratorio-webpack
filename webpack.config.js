@@ -13,7 +13,6 @@ const miniCss = new MiniCssExtractPlugin({
 });
 
 module.exports = {
-  //entry: ['./main.tsx'],
   entry: {
     app: "./main.tsx"
   },

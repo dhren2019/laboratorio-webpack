@@ -1,23 +1,15 @@
-$baseColor: black;
-$textColor: white;
-$textSize: 2rem;
+$text-color: black;
+$background: indianred;
 
-.box {
-    background-color: $baseColor;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    span.title {
-        margin-left: 20px;
-        text-align: center;
-        color: $textColor;
-        font-size: $textSize;
-    }
-
-    img.logo {
-        margin-left: 20px;
-        display: block;
-        width: 200px;
-    }
+.styles {
+  background-color: $background;
+  color: $text-color;
 }
+
+img {
+  max-width: 150px;
+  margin-left: 20px;
+  display: block;
+  width: 200px;
+}
+

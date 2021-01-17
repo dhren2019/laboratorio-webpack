@@ -1,37 +1,23 @@
-import * as React from 'react';
-const styles = require('./styles/styles.scss');
-const logo = require('./img/ironMan.jpg')
+import React from "react";
+import logo  from "./img/ironMan.jpg";
+import styles from "./styles/styles.scss";
 
-interface Props {
-  initialName: string;
-}
+export const AverageComponent: React.FC = () => {
 
-interface State {
-  name: string;
-}
+  const [name, setName ] = React.useState<string>("");
 
-export class averageComponent extends React.Component<Props, State> {
+  React.useEffect(() => {
+    const defaultInit: string = "Iniciar";
+    setName(defaultInit);
 
-  constructor(props: Props){
-      super(props);
-      this.state = {name: this.props.initialName};
-  }
+  }, []);
 
-  sayHello(newName: string) {
-      this.setState({name: newName})
-  }
-
-  render() {
-      return <>
-          <div className={styles.box}>
-              <img src={logo} className={styles.logo}/>
-              <span className={styles.title}>Hola: {this.state.name}</span>
-          </div>
-          <div>
-              <span>Inserta tu nombre: </span>
-              <input type="text" onChange={(e) => this.sayHello(e.target.value)} />
-          </div>
-      </>;
-  }
-
-}
+  return (
+    <>
+    <img src={logo}/>
+    <div className={styles}>
+      <h1>{`Hola desde React, bienvenido ${name}`}</h1>
+    </div>
+    </>
+  );
+};
