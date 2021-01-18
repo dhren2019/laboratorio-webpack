@@ -1,0 +1,15 @@
+$text-color: black;
+$background: indianred;
+
+.styles {
+  background-color: $background;
+  color: $text-color;
+}
+
+img {
+  max-width: 150px;
+  margin-left: 20px;
+  display: block;
+  width: 200px;
+}
+
