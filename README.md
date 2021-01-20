@@ -1,8 +1,9 @@
 # Iron Man Webpack Boiler
 ### &spades; Webpack + React + Typescript &spades;
 
-![Ironman](https://github.com/dhren2019/laboratorio-webpack/blob/main/img/ironMan.jpg)
+![Ironman](https://github.com/dhren2019/laboratorio-webpack/blob/main/img/ironMan.jpg)<br>
 
+![version](https://img.shields.io/badge/version-1-blue)
 #### Install
 
 `$ npm install `
