@@ -1,15 +1,19 @@
-$text-color: black;
-$background: indianred;
+$text-color: skyblue;
+$text: darkblue;
+$size: 15 px;
+$family: Arial, "Helvetica Neue";
 
-.styles {
-  background-color: $background;
+h1,
+p {
+  margin-left: 20px;
+  margin-top: 40px;
   color: $text-color;
 }
 
 img {
-  max-width: 150px;
   margin-left: 20px;
+  margin-top: 40px;
+  align-items: center;
   display: block;
-  width: 200px;
+  width: 1080px;
 }
-
